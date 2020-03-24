@@ -17,6 +17,7 @@
 
 # Overlay
 DEVICE_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay
+PRODUCT_ENFORCE_RRO_TARGETS := framework-res
 
 # ANT+
 PRODUCT_PACKAGES += \
@@ -92,7 +93,7 @@ PRODUCT_PACKAGES += \
 
 # Encryption
 PRODUCT_PACKAGES += \
-    vendor.qti.hardware.cryptfshw@1.0-service-qti.qsee
+    vendor.qti.hardware.cryptfshw@1.0-service-qti.lineage
 
 # FM
 PRODUCT_PACKAGES += \
