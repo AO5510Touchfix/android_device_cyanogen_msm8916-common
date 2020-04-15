@@ -62,6 +62,3 @@ PRODUCT_PROPERTY_OVERRIDES += \
 # Wi-Fi
 PRODUCT_PROPERTY_OVERRIDES += \
     wifi.interface=wlan0
-
-# UI
-sys.use_fifo_ui=1
